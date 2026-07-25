@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rajnish Jaiswar — Portfolio | BSc IT Student & Developer</title>
+  <meta name="description" content="Personal portfolio of Rajnish Jaiswar — BSc IT student, software developer, cybersecurity enthusiast, and creative professional based in Mumbai." />
+  <meta name="keywords" content="Rajnish Jaiswar, Portfolio, BSc IT, Developer, Cybersecurity, Web Development, Mumbai" />
+  <meta name="author" content="Rajnish Jaiswar" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Rajnish Jaiswar — Portfolio" />
+  <meta property="og:description" content="BSc IT student, software developer, cybersecurity enthusiast, and creative professional." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/fill/style.css" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ========== Cursor Glow ========== -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ========== Navbar ========== -->
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-logo">
+      <span class="logo-bracket">&lt;</span>RJ<span class="logo-bracket"> /&gt;</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ========== Hero Section ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="hero-content">
+      <div class="hero-badge animate-on-scroll">
+        <span class="badge-dot"></span>
+        Open to Opportunities
+      </div>
+      <h1 class="hero-title animate-on-scroll">
+        <span class="hero-greeting">Hello, I'm</span>
+        <span class="hero-name">Rajnish<br />Jaiswar</span>
+      </h1>
+      <p class="hero-subtitle animate-on-scroll">
+        <span class="typed-text" id="typedText"></span><span class="typed-cursor">|</span>
+      </p>
+      <p class="hero-description animate-on-scroll">
+        Motivated B.Sc. IT student with a strong foundation in software development, 
+        web technologies, databases, and AI applications — seeking opportunities to build real-world impact.
+      </p>
+      <div class="hero-cta animate-on-scroll">
+        <a href="#projects" class="btn btn-primary">
+          <i class="ph ph-rocket-launch"></i> View My Work
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="ph ph-envelope-simple"></i> Get in Touch
+        </a>
+      </div>
+      <div class="hero-stats animate-on-scroll">
+        <div class="stat-item">
+          <span class="stat-number" data-count="6">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Programming Languages</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="4">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Projects Built</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">8.83</span>
+          <span class="stat-label">Current CGPA</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <a href="#about">
+        <span>Scroll Down</span>
+        <i class="ph ph-caret-double-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== About Section ========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag"><i class="ph ph-user"></i> Introduction</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-layout">
+        <div class="about-text-col animate-on-scroll">
+          <h3 class="about-headline">Motivated IT Student &amp; Aspiring Developer</h3>
+          <p class="about-text">
+            I'm <strong>Rajnish Mukesh Jaiswar</strong>, a B.Sc. Information Technology student at
+            <strong>Siddharth College of Commerce &amp; Economics, Mumbai</strong> (University of Mumbai).
+            I have a strong foundation in <strong>software development</strong>,
+            <strong>web technologies</strong>, <strong>databases</strong>, and
+            <strong>AI applications</strong>, and I'm actively seeking a
+            <strong>Software Development or IT Internship</strong> to apply my technical skills while
+            contributing to real-world projects.
+          </p>
+          <p class="about-text">
+            Beyond coding, I bring experience in <strong>graphic design</strong>,
+            <strong>video editing</strong>, and <strong>social media management</strong>.
+            With over <strong>8 years</strong> as a Youth Facilitator at SNEHA NGO and hands-on
+            leadership in college events, I thrive at the intersection of technology and community impact.
+          </p>
+        </div>
+        <div class="about-info-col animate-on-scroll">
+          <div class="about-info-grid">
+            <div class="about-info-item">
+              <i class="ph ph-map-pin"></i>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-value">Mumbai, India</span>
+              </div>
+            </div>
+            <div class="about-info-item">
+              <i class="ph ph-graduation-cap"></i>
+              <div>
+                <span class="info-label">Degree</span>
+                <span class="info-value">B.Sc. IT (2024–2027)</span>
+              </div>
+            </div>
+            <div class="about-info-item">
+              <i class="ph ph-envelope-simple"></i>
+              <div>
+                <span class="info-label">Email</span>
+                <span class="info-value">rajnishjaiswar01@gmail.com</span>
+              </div>
+            </div>
+            <div class="about-info-item">
+              <i class="ph ph-phone"></i>
+              <div>
+                <span class="info-label">Phone</span>
+                <span class="info-value">+91 9221826875</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-social-strip">
+            <a href="https://github.com/rajnishjaiswar01-jarvis" target="_blank" rel="noopener" class="social-icon-link" aria-label="GitHub">
+              <i class="ph-bold ph-github-logo"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rajnish-jaiswar-8477a8370" target="_blank" rel="noopener" class="social-icon-link" aria-label="LinkedIn">
+              <i class="ph-bold ph-linkedin-logo"></i>
+            </a>
+            <a href="mailto:rajnishjaiswar01@gmail.com" class="social-icon-link" aria-label="Email">
+              <i class="ph-bold ph-envelope-simple"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Skills Section ========== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag"><i class="ph ph-code"></i> Expertise</span>
+        <h2 class="section-title">Skills &amp; Technologies</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Programming Languages -->
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-card-icon" style="--card-accent: #2563eb;">
+            <i class="ph ph-terminal"></i>
+          </div>
+          <h3 class="skill-card-title">Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">R</span>
+            <span class="skill-tag">Scala</span>
+          </div>
+        </div>
+
+        <!-- Web Development -->
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-card-icon" style="--card-accent: #0ea5e9;">
+            <i class="ph ph-globe"></i>
+          </div>
+          <h3 class="skill-card-title">Web Development</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Database & Analytics -->
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-card-icon" style="--card-accent: #8b5cf6;">
+            <i class="ph ph-database"></i>
+          </div>
+          <h3 class="skill-card-title">Database &amp; Analytics</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">DBMS</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">PL/SQL</span>
+            <span class="skill-tag">Data Analysis</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Pandas</span>
+          </div>
+        </div>
+
+        <!-- Tools & Technologies -->
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-card-icon" style="--card-accent: #10b981;">
+            <i class="ph ph-wrench"></i>
+          </div>
+          <h3 class="skill-card-title">Tools &amp; Technologies</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">IntelliJ IDEA</span>
+            <span class="skill-tag">IDLE</span>
+            <span class="skill-tag">Windows</span>
+          </div>
+        </div>
+
+        <!-- Core Concepts -->
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-card-icon" style="--card-accent: #f59e0b;">
+            <i class="ph ph-book-open"></i>
+          </div>
+          <h3 class="skill-card-title">Core Concepts</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">OOP</span>
+            <span class="skill-tag">Data Structures</span>
+            <span class="skill-tag">Networking Basics</span>
+            <span class="skill-tag">Cybersecurity Fundamentals</span>
+          </div>
+        </div>
+
+        <!-- Design & Editing -->
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-card-icon" style="--card-accent: #ec4899;">
+            <i class="ph ph-paint-brush"></i>
+          </div>
+          <h3 class="skill-card-title">Design &amp; Editing</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Photoshop</span>
+            <span class="skill-tag">Lightroom</span>
+            <span class="skill-tag">Canva</span>
+            <span class="skill-tag">CapCut</span>
+            <span class="skill-tag">UI/UX Design</span>
+            <span class="skill-tag">Color Grading</span>
+            <span class="skill-tag">Video Editing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Projects Section ========== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag"><i class="ph ph-folder-notch-open"></i> Portfolio</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: AI OS -->
+        <article class="project-card project-featured animate-on-scroll">
+          <div class="project-card-header">
+            <div class="project-icon">
+              <i class="ph ph-desktop-tower"></i>
+            </div>
+            <span class="project-badge badge-major">⭐ Major Ongoing Project</span>
+          </div>
+          <h3 class="project-title">AI OS — AI-First Desktop Operating Environment</h3>
+          <p class="project-description">
+            An AI-powered operating environment currently under development. It focuses on creating 
+            an intelligent workspace featuring AI chat, notes, file management, and productivity 
+            tools — all within a sleek desktop-like interface.
+          </p>
+          <ul class="project-highlights">
+            <li><i class="ph ph-check-circle"></i> AI chat integration with intelligent workspace</li>
+            <li><i class="ph ph-check-circle"></i> v0.2.0 released; v0.3.0 in active development</li>
+            <li><i class="ph ph-check-circle"></i> Deployed live on Vercel</li>
+          </ul>
+          <div class="project-tech">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Tailwind CSS</span>
+            <span>Zustand</span>
+            <span>AI APIs</span>
+            <span>Vercel</span>
+          </div>
+          <div class="project-links">
+            <a href="https://ai-os-beige.vercel.app/" target="_blank" class="project-link">
+              <i class="ph ph-arrow-square-out"></i> Live Demo
+            </a>
+            <a href="https://github.com/rajnishjaiswar01-jarvis" target="_blank" class="project-link">
+              <i class="ph ph-github-logo"></i> GitHub
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 2: ChronoSwarm -->
+        <article class="project-card animate-on-scroll">
+          <div class="project-card-header">
+            <div class="project-icon">
+              <i class="ph ph-atom"></i>
+            </div>
+            <span class="project-badge">3D Graphics</span>
+          </div>
+          <h3 class="project-title">ChronoSwarm — 3D Particle Engine</h3>
+          <p class="project-description">
+            A modern 3D particle simulation project featuring dynamic swarm behaviour, 
+            interactive animations, gesture controls using MediaPipe, and creative web graphics 
+            built with Three.js and WebGL.
+          </p>
+          <ul class="project-highlights">
+            <li><i class="ph ph-check-circle"></i> Dynamic swarm behaviour &amp; physics</li>
+            <li><i class="ph ph-check-circle"></i> Hand gesture controls via MediaPipe</li>
+            <li><i class="ph ph-check-circle"></i> Interactive creative web graphics</li>
+          </ul>
+          <div class="project-tech">
+            <span>JavaScript</span>
+            <span>Three.js</span>
+            <span>WebGL</span>
+            <span>MediaPipe Hands</span>
+          </div>
+          <div class="project-links">
+            <a href="https://rajnishjaiswar01-jarvis.github.io/3d-particle-system/" target="_blank" class="project-link">
+              <i class="ph ph-arrow-square-out"></i> Live Demo
+            </a>
+            <a href="https://github.com/rajnishjaiswar01-jarvis" target="_blank" class="project-link">
+              <i class="ph ph-github-logo"></i> GitHub
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 3: College Event Registration System -->
+        <article class="project-card animate-on-scroll">
+          <div class="project-card-header">
+            <div class="project-icon">
+              <i class="ph ph-qr-code"></i>
+            </div>
+            <span class="project-badge">Full-Stack</span>
+          </div>
+          <h3 class="project-title">College Event Registration System</h3>
+          <p class="project-description">
+            A full-stack QR-based event registration and attendance management system built 
+            for college events. Features automated QR code generation, real-time attendance 
+            tracking, and a clean admin dashboard.
+          </p>
+          <ul class="project-highlights">
+            <li><i class="ph ph-check-circle"></i> QR-based registration &amp; attendance</li>
+            <li><i class="ph ph-check-circle"></i> Full-stack with React frontend &amp; Express backend</li>
+            <li><i class="ph ph-check-circle"></i> Deployed live on Render</li>
+          </ul>
+          <div class="project-tech">
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>SQLite</span>
+            <span>React</span>
+            <span>QR Code</span>
+          </div>
+          <div class="project-links">
+            <a href="https://college-event-4hph.onrender.com/invitation.html" target="_blank" class="project-link">
+              <i class="ph ph-arrow-square-out"></i> Live Demo
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 4: Smart India Hackathon -->
+        <article class="project-card animate-on-scroll">
+          <div class="project-card-header">
+            <div class="project-icon">
+              <i class="ph ph-trophy"></i>
+            </div>
+            <span class="project-badge">Hackathon</span>
+          </div>
+          <h3 class="project-title">Smart India Hackathon (SIH) — Team Leader</h3>
+          <p class="project-description">
+            As <strong>Team Leader</strong>, I led my team's participation in the 
+            <strong>Smart India Hackathon (SIH)</strong>. We analysed the problem statement, 
+            proposed innovative AI-based solutions — including an AI Healthcare Chatbot and an 
+            AI Tourism Platform — coordinated the team, and presented our ideas to the jury.
+          </p>
+          <ul class="project-highlights">
+            <li><i class="ph ph-check-circle"></i> Led team as Team Leader — problem analysis &amp; solution design</li>
+            <li><i class="ph ph-check-circle"></i> Proposed AI Healthcare Chatbot &amp; AI Tourism Platform</li>
+            <li><i class="ph ph-info"></i> Participated but did not win — no final product was developed</li>
+          </ul>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>NLP</span>
+            <span>React</span>
+            <span>REST APIs</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Experience Section ========== -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag"><i class="ph ph-briefcase"></i> Journey</span>
+        <h2 class="section-title">Experience &amp; Leadership</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="experience-grid">
+        <div class="experience-column">
+          <h3 class="experience-column-title animate-on-scroll">
+            <i class="ph ph-briefcase"></i> Professional Experience
+          </h3>
+
+          <div class="timeline">
+            <div class="timeline-item animate-on-scroll">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h4>Social Media Handler</h4>
+                  <span class="timeline-duration">Jan 2025 – Present</span>
+                </div>
+                <p class="timeline-org">Siddharth College of Commerce &amp; Economics</p>
+                <p class="timeline-desc">Managed the college's Instagram account and designed promotional content for events and campaigns.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item animate-on-scroll">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h4>Graphic Designer &amp; Video Editor</h4>
+                  <span class="timeline-duration">2024 – Present</span>
+                </div>
+                <p class="timeline-org">Freelance</p>
+                <p class="timeline-desc">Designed digital creatives and edited promotional videos for clients and personal projects.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item animate-on-scroll">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h4>Youth Facilitator</h4>
+                  <span class="timeline-duration">2017 – Present</span>
+                </div>
+                <p class="timeline-org">SNEHA NGO</p>
+                <p class="timeline-desc">Conducted community awareness programs and coordinated volunteers for social impact initiatives.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item animate-on-scroll">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h4>Private Tutor</h4>
+                  <span class="timeline-duration">2021 – Present</span>
+                </div>
+                <p class="timeline-org">Science, Chemistry &amp; Mathematics</p>
+                <p class="timeline-desc">Provided personalized tutoring to school students, fostering curiosity and analytical thinking.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="experience-column">
+          <h3 class="experience-column-title animate-on-scroll">
+            <i class="ph ph-crown"></i> Leadership &amp; Responsibilities
+          </h3>
+
+          <div class="leadership-cards">
+            <div class="leadership-card animate-on-scroll">
+              <i class="ph ph-chats-circle"></i>
+              <div>
+                <h4>Class Representative (CR)</h4>
+                <p>Department of Information Technology — liaison between students and faculty.</p>
+              </div>
+            </div>
+            <div class="leadership-card animate-on-scroll">
+              <i class="ph ph-calendar-check"></i>
+              <div>
+                <h4>Event Organizer</h4>
+                <p>Organized departmental technical and cultural events.</p>
+              </div>
+            </div>
+            <div class="leadership-card animate-on-scroll">
+              <i class="ph ph-users-three"></i>
+              <div>
+                <h4>Team Leader — Smart India Hackathon</h4>
+                <p>Led team through problem analysis, solution design, and presentation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Education & Certifications Section ========== -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag"><i class="ph ph-graduation-cap"></i> Academics</span>
+        <h2 class="section-title">Education &amp; Certifications</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="education-grid">
+        <!-- BSc IT -->
+        <div class="education-card main-edu animate-on-scroll">
+          <div class="edu-icon">
+            <i class="ph ph-graduation-cap"></i>
+          </div>
+          <div class="edu-content">
+            <h3>Bachelor of Science in Information Technology (B.Sc. IT)</h3>
+            <p class="edu-institution">Siddharth College of Commerce &amp; Economics</p>
+            <p class="edu-detail"><i class="ph ph-buildings"></i> University of Mumbai</p>
+            <p class="edu-detail"><i class="ph ph-map-pin"></i> Churchgate, Mumbai</p>
+            <p class="edu-detail"><i class="ph ph-calendar"></i> June 2024 – March 2027 (Expected Graduation: 2027)</p>
+            <p class="edu-detail highlight"><i class="ph ph-star"></i> Current CGPA: 8.83 / 10 (Semester IV)</p>
+          </div>
+        </div>
+
+        <!-- HSC -->
+        <div class="education-card animate-on-scroll">
+          <div class="edu-icon edu-icon-sm">
+            <i class="ph ph-book-open"></i>
+          </div>
+          <div class="edu-content">
+            <h3>Higher Secondary Certificate (HSC) — Science</h3>
+            <p class="edu-institution">Swami Vivekanand Kanishtha Mahavidyalaya</p>
+            <p class="edu-detail"><i class="ph ph-map-pin"></i> Kurla, Mumbai</p>
+          </div>
+        </div>
+
+        <!-- SSC -->
+        <div class="education-card animate-on-scroll">
+          <div class="edu-icon edu-icon-sm">
+            <i class="ph ph-notebook"></i>
+          </div>
+          <div class="edu-content">
+            <h3>Secondary School Certificate (SSC)</h3>
+            <p class="edu-institution">Ruby College</p>
+            <p class="edu-detail"><i class="ph ph-map-pin"></i> Govandi, Mumbai</p>
+          </div>
+        </div>
+
+        <!-- Certifications -->
+        <div class="certifications-wrap animate-on-scroll">
+          <h3 class="cert-heading">
+            <i class="ph ph-certificate"></i> Certifications
+          </h3>
+          <div class="cert-grid">
+            <div class="cert-card">
+              <div class="cert-badge"><i class="ph ph-shield-check"></i></div>
+              <div class="cert-info">
+                <h4>Deloitte Cyber Job Simulation</h4>
+                <p>Forage</p>
+                <span class="cert-date">November 2025</span>
+              </div>
+            </div>
+            <div class="cert-card">
+              <div class="cert-badge"><i class="ph ph-lock-key"></i></div>
+              <div class="cert-info">
+                <h4>Cybersecurity Basics</h4>
+                <p>Cisco</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <div class="cert-badge"><i class="ph ph-code"></i></div>
+              <div class="cert-info">
+                <h4>Introduction to Python</h4>
+                <p>Coursera</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Key Strengths Section ========== -->
+  <section class="section section-alt" id="strengths">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag"><i class="ph ph-lightning"></i> Core Competencies</span>
+        <h2 class="section-title">Key Strengths</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="strengths-showcase">
+        <div class="strength-card animate-on-scroll">
+          <i class="ph ph-puzzle-piece"></i>
+          <h4>Problem Solving</h4>
+        </div>
+        <div class="strength-card animate-on-scroll">
+          <i class="ph ph-crown"></i>
+          <h4>Leadership</h4>
+        </div>
+        <div class="strength-card animate-on-scroll">
+          <i class="ph ph-users-three"></i>
+          <h4>Team Collaboration</h4>
+        </div>
+        <div class="strength-card animate-on-scroll">
+          <i class="ph ph-brain"></i>
+          <h4>Quick Learner</h4>
+        </div>
+        <div class="strength-card animate-on-scroll">
+          <i class="ph ph-chart-line-up"></i>
+          <h4>Analytical Thinking</h4>
+        </div>
+        <div class="strength-card animate-on-scroll">
+          <i class="ph ph-chat-circle-text"></i>
+          <h4>Communication Skills</h4>
+        </div>
+        <div class="strength-card animate-on-scroll">
+          <i class="ph ph-arrows-out"></i>
+          <h4>Adaptability</h4>
+        </div>
+        <div class="strength-card animate-on-scroll">
+          <i class="ph ph-lightbulb"></i>
+          <h4>Creativity</h4>
+        </div>
+        <div class="strength-card animate-on-scroll">
+          <i class="ph ph-timer"></i>
+          <h4>Time Management</h4>
+        </div>
+        <div class="strength-card animate-on-scroll">
+          <i class="ph ph-books"></i>
+          <h4>Continuous Learning</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Contact Section ========== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag"><i class="ph ph-chat-circle-text"></i> Reach Out</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="contact-layout animate-on-scroll">
+        <p class="contact-intro">
+          I'm currently looking for <strong>internship opportunities</strong> in 
+          <strong>Software Development</strong>, <strong>Web Development</strong>, and 
+          <strong>Cybersecurity</strong>. Whether you have a question, an opportunity, or simply 
+          want to connect, feel free to reach out.
+        </p>
+
+        <div class="contact-cards">
+          <a href="mailto:rajnishjaiswar01@gmail.com" class="contact-card">
+            <div class="contact-card-icon"><i class="ph ph-envelope-simple"></i></div>
+            <div>
+              <span class="contact-card-label">Email</span>
+              <span class="contact-card-value">rajnishjaiswar01@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+919221826875" class="contact-card">
+            <div class="contact-card-icon"><i class="ph ph-phone"></i></div>
+            <div>
+              <span class="contact-card-label">Phone</span>
+              <span class="contact-card-value">+91 9221826875</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/rajnish-jaiswar-8477a8370" target="_blank" class="contact-card">
+            <div class="contact-card-icon"><i class="ph ph-linkedin-logo"></i></div>
+            <div>
+              <span class="contact-card-label">LinkedIn</span>
+              <span class="contact-card-value">Rajnish Jaiswar</span>
+            </div>
+          </a>
+          <a href="https://github.com/rajnishjaiswar01-jarvis" target="_blank" class="contact-card">
+            <div class="contact-card-icon"><i class="ph ph-github-logo"></i></div>
+            <div>
+              <span class="contact-card-label">GitHub</span>
+              <span class="contact-card-value">rajnishjaiswar01-jarvis</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Footer ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo">
+          <span class="logo-bracket">&lt;</span>RJ<span class="logo-bracket"> /&gt;</span>
+        </a>
+        <p>Crafting digital experiences with code, creativity &amp; passion.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://github.com/rajnishjaiswar01-jarvis" target="_blank" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+        <a href="https://www.linkedin.com/in/rajnish-jaiswar-8477a8370" target="_blank" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+        <a href="mailto:rajnishjaiswar01@gmail.com" aria-label="Email"><i class="ph ph-envelope-simple"></i></a>
+      </div>
+      <div class="footer-copy">
+        <p>&copy; <span id="footerYear"></span> Rajnish Jaiswar. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
